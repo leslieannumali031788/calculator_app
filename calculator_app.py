@@ -33,7 +33,7 @@ def main():
         print("3 - Multiplication")
         print("4 - Division")
 
-        choice = get_input("\nEnter your choice: ")
+        choice = input("\nEnter your choice: ")
 
         first_number = get_input("\nEnter first number: ")
         second_number = get_input("\nEnter second number: ")
@@ -52,9 +52,19 @@ def main():
                 result = calculator.divide(first_number, second_number)
 
             else:
-                result = calculator.subtract(first_number, second_number)
+                print("Please enter a valid choice.")
+                continue
 
             print("The result is: ", result)
 
         except ZeroDivisionError:
             print("You can't divide by zero. Please try again.")
+
+        again = get_input("\nDo you want to try again? (yes/no): ").lower()
+
+        if again == "yes":
+            print("Thank you for using calculator. See you next time!")
+            break
+
+if __name__ == "__main__":
+    main()
