@@ -34,3 +34,6 @@ def main():
         print("4 - Division")
 
         choice = get_input("\nEnter your choice: ")
+
+        first_number = get_input("\nEnter first number: ")
+        second_number = get_input("\nEnter second number: ")
