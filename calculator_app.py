@@ -41,3 +41,7 @@ def main():
         try:
             if choice == "1":
                 result = calculator.add(first_number, second_number)
+
+            elif choice == "2":
+                result = calculator.subtract(first_number, second_number)
+                
