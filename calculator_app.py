@@ -55,3 +55,6 @@ def main():
                 result = calculator.subtract(first_number, second_number)
 
             print("The result is: ", result)
+
+        except ZeroDivisionError:
+            print("You can't divide by zero. Please try again.")
