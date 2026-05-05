@@ -25,10 +25,12 @@ def main():
 
     calculator = OtherOperations()
 
-    print("\n===== Calculator =====")
-    print("1 - Addition")
-    print("2 - Subtraction")
-    print("3 - Multiplication")
-    print("4 - Division")
+    while True:
 
-    choice = get_input("\nEnter your choice: ")
+        print("\n===== Calculator =====")
+        print("1 - Addition")
+        print("2 - Subtraction")
+        print("3 - Multiplication")
+        print("4 - Division")
+
+        choice = get_input("\nEnter your choice: ")
