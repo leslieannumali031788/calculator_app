@@ -44,4 +44,6 @@ def main():
 
             elif choice == "2":
                 result = calculator.subtract(first_number, second_number)
-                
+
+            elif choice == "3":
+                result = calculator.multiply(first_number, second_number)
