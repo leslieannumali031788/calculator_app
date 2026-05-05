@@ -7,4 +7,7 @@ class Calculator:
 
 class OtherOperations(Calculator):
     def multiply(self, first_number, second_number):
+        pass
+
+    def divide(self, first_number, second_number):
 
