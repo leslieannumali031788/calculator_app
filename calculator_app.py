@@ -60,7 +60,7 @@ def main():
         except ZeroDivisionError:
             print("You can't divide by zero. Please try again.")
 
-        again = get_input("\nDo you want to try again? (yes/no): ").lower()
+        again = input("\nDo you want to try again? (yes/no): ").lower()
 
         if again == "yes":
             print("Thank you for using calculator. See you next time!")
