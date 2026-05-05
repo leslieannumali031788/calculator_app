@@ -6,4 +6,5 @@ class Calculator:
         return first_number - second_number
 
 class OtherOperations(Calculator):
+    def multiply(self, first_number, second_number):
 
