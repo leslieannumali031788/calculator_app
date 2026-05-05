@@ -37,3 +37,7 @@ def main():
 
         first_number = get_input("\nEnter first number: ")
         second_number = get_input("\nEnter second number: ")
+
+        try:
+            if choice == "1":
+                result = calculator.add(first_number, second_number)
