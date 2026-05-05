@@ -3,5 +3,7 @@ class Calculator:
         return first_number + second_number
 
     def subtract(self, first_number, second_number):
-        pass
+        return first_number - second_number
+
+class OtherOperations(Calculator):
 
