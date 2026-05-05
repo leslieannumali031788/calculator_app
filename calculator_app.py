@@ -47,3 +47,6 @@ def main():
 
             elif choice == "3":
                 result = calculator.multiply(first_number, second_number)
+
+            elif choice == "4":
+                result = calculator.divide(first_number, second_number)
