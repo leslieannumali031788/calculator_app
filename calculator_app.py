@@ -20,3 +20,9 @@ def get_input(message):
             return float(input(message))
         except ValueError:
             print("Please enter a valid number.")
+
+def main():
+
+    calculator = OtherOperations()
+
+    print("\n===== Calculator =====")
