@@ -1,4 +1,6 @@
 class Calculator:
-    def calculate(self, numberone, numbertwo):
+    def add(self, first_number, second_number):
         pass
+
+    
 
