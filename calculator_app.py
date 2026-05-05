@@ -15,3 +15,8 @@ class OtherOperations(Calculator):
         return first_number / second_number
 
 def get_input(message):
+    while True:
+        try:
+            return float(input(message))
+        except ValueError:
+            print("Please enter a valid number.")
