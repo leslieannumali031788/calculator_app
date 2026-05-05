@@ -30,3 +30,5 @@ def main():
     print("2 - Subtraction")
     print("3 - Multiplication")
     print("4 - Division")
+
+    choice = get_input("\nEnter your choice: ")
