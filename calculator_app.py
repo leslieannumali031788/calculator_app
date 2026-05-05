@@ -53,3 +53,5 @@ def main():
 
             else:
                 result = calculator.subtract(first_number, second_number)
+
+            print("The result is: ", result)
