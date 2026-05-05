@@ -50,3 +50,6 @@ def main():
 
             elif choice == "4":
                 result = calculator.divide(first_number, second_number)
+
+            else:
+                result = calculator.subtract(first_number, second_number)
