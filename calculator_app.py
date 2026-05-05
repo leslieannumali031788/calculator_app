@@ -14,3 +14,4 @@ class OtherOperations(Calculator):
             raise ZeroDivisionError
         return first_number / second_number
 
+def get_input(message):
