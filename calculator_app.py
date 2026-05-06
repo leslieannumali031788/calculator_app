@@ -1,3 +1,6 @@
+from rich.console import Console
+console = Console()
+
 class Calculator:
     def add(self, first_number, second_number):
         return first_number + second_number
@@ -62,7 +65,7 @@ def main():
 
         again = input("\nDo you want to try again? (yes/no): ").lower()
 
-        if again == "yes":
+        if again != "yes":
             print("Thank you for using calculator. See you next time!")
             break
 
